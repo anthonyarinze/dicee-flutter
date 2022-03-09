@@ -485,7 +485,7 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
                 children: [
                   TextSpan(
                     //recognizer: ,
-                    text: "term & conditions",
+                    text: "Terms & Conditions",
                     style: TextStyle(color: Colors.orange),
                   ),
                 ],
