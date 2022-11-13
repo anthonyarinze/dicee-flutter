@@ -12,15 +12,17 @@ class _HomePageState extends State<HomePage> {
       children: [
         Container(
           decoration: BoxDecoration(
-              //color: Color(0xFFD4E7FE),
-              gradient: LinearGradient(
-                  colors: [
-                    Color(0xFFD4E7FE),
-                    Color(0xFFF0F0F0),
-                  ],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  stops: [0.6, 0.3])),
+            //color: Color(0xFFD4E7FE),
+            gradient: LinearGradient(
+              colors: [
+                Color(0xFFD4E7FE),
+                Color(0xFFF0F0F0),
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              stops: [0.6, 0.3],
+            ),
+          ),
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 50),
           child: Column(
             children: [

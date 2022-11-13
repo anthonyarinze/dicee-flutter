@@ -16,9 +16,12 @@ class LoginSignupUI extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Login Signup UI",
-      routes: {
-        SchoolManagement.id: (context) => SchoolManagement(),
+      routes: <String, WidgetBuilder>{
+        //SchoolManagement.id: (context) => SchoolManagement(),
+        '/': (context) => SchoolManagement(),
+        // change the route name of your second page here, if there is one :)
       },
+      initialRoute: SchoolManagement.id,
     );
   }
 }
